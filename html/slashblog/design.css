@@ -1,0 +1,499 @@
+body {
+	margin: 20px 0 0 0;
+	padding: 0;
+	background: #FFFFFF url(images/img01.gif) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #203C36;
+}
+
+a {
+    color: #7AB9AB;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+	border: none;
+    
+}
+
+fieldset{
+    margin: 5px;    
+    border: 1px solid #203C36;
+}
+
+legend {
+    /*display: none;*/
+   
+}
+
+input[type=submit], input[type=reset],input[type=text],select, textarea{
+	padding: 2px 5px;
+	border: 1px solid #B8E0D7;
+	font: normal 1em Arial, Helvetica, sans-serif;
+	color: #203C36;
+    background-color: #FFFFFF;
+}
+
+
+.evenc {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-image: url(images/img03.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 80px;
+}
+
+
+/**header**/
+
+.header {
+	height: 80px;
+	margin: 0 auto;
+	background-image: url(images/img02.jpg);
+}
+
+.header h1 {
+	margin: 0;
+	padding: 15px 0 0 20px;
+	color: #FFFFFF;
+    display: block;
+	letter-spacing: -2px;
+	font-size: 2.4em;
+}
+
+/** content **/
+.evenc .content{
+    float:left;
+    width: 660px;
+    padding: 0px 20px 0px 20px;
+}
+
+.evenc .content .subject{
+    color: #203C36;
+    color: #DDDDDD;
+    margin:0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px 10px 10px;
+}
+
+/** event_box **/
+.evenc .content div.event_box{
+    width: 45%;
+    background: #eeeeec;
+    background-color: #F8F8F8;
+    border: 1px solid #d3d7cf;
+    padding:5px 5px 5px 5px;
+    float: left;
+    height: 104px;
+    overflow: hidden;
+    margin: 0px 0px 10px 10px;
+}
+
+.evenc .content div.event_box .ical{
+    background-image: url(./images/ical.png);
+    background-repeat: no-repeat;
+    float: right;
+    height: 16px;
+    width: 18px;
+}
+.evenc .content div.event_box .ical *{
+    display: none;
+}
+
+.evenc .content div.event_box h1 {
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin: 0px 0 0px 0;
+    padding:0px 0 4px 0;
+}
+
+.evenc .content div.event_box h1 a{
+    display: block;
+}
+
+.evenc .content div.event_box h2 {
+    font-size: 12px;
+    margin: 0px 0 0px 0;
+    padding:0px 0 0px 0;
+}
+
+
+.evenc .content div.event_box div {
+    margin: 1px 0 10px 0;
+    line-height: 14px;
+    text-align: justify;
+}
+
+/** event form **/
+.evenc form.event {
+    margin: 0px auto 0px auto;
+    width: 75%;
+}
+
+.evenc form.event fieldset{
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+}
+
+.evenc form.event textarea{
+    width: 95%;
+}
+
+.evenc form.event label{
+    display: block;
+    font-weight: bold;
+}
+
+.evenc form.event input[type="radio"] + label{
+    display: inline;
+    font-weight: normal;
+}
+
+.evenc form.event div{
+    color: #696969;
+    font-size: x-small;
+}
+
+/** comment **/
+.evenc .content .comment{
+    clear: left;
+    width: 60%;
+}
+
+.evenc .comment .name{
+    float: left;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.evenc .comment .text{
+    border-top: solid 1px #d3d7cf;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/** comment form **/
+.evenc form.comment fieldset{
+    padding: 5px 5px 5px 5px;
+    
+}
+.evenc form.comment textarea{    
+    width: 90%;
+}
+
+.evenc form.comment label{
+    display: block;
+    font-weight: bold;
+}
+
+.evenc form.comment div{
+    font-size: x-small;    
+}
+
+.evenc form.comment input[type="reset"]{
+    margin-top: 5px;
+}
+
+/** message **/
+.evenc .content .message{
+    width: 90%;
+    background: #F8F8F8;
+    border: 1px solid #d3d7cf;
+    padding: 1px 1px 1px 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.evenc .content .message h1{
+    background-color: #7AB9AB;
+    margin: 0px;
+    padding: 2px;
+    font-size: 15px;
+    font-weight: bold;    
+}
+
+.evenc .content .message div{
+    padding: 4px;
+}
+
+
+/** search **/
+.evenc .content .search fieldset{
+    width: 75%;
+    margin: 0px auto 10px auto;
+    text-align: center;
+}
+
+
+/** navi **/
+.evenc .menu{
+    float: right;
+    width: 240px;
+    margin: 10px 10px 10px 10px;
+    background: url(images/img04.jpg) repeat-y;
+    color: #FFFFFF;
+}
+
+.evenc .menu .navi:before{
+    content: url(images/img06.jpg);
+}
+
+.evenc .menu .navi{
+    background-image: url(images/img05.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 50px;
+}
+
+.evenc .menu .navi a{
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px 4px 0px 12px;
+    height: 20px;
+}
+
+.evenc .menu .navi a:hover{
+ }   
+    
+/** calendar **/ 
+.evenc .menu .calendar{
+    background: url(images/img05.jpg) no-repeat;
+}
+
+
+.evenc .menu .calendar table{
+    padding:5px 5px 5px 5px;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.evenc .menu .calendar a{
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+
+.evenc .menu .calendar a:hover{
+    color: #7AB9AB;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
+
+
+
+
+
+/** feeds **/
+.evenc .menu .feeds:before{
+    content: url(images/img06.jpg);
+}
+
+.evenc .menu .feeds{
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.evenc .menu .feeds a{
+    background-image: url(./images/feed-icon-14x14.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    height: 16px;
+    margin: 0px 20px 0px 10px;    
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    display: none;
+}
+
+    
+/** footer **/
+.footer {
+	clear: both;
+	padding: 40px 0;
+	background: #696B60 url(images/img07.gif) repeat-x;    
+}
+
+.footer p {
+	margin: 0;
+	text-align: center;
+	color: #999999;
+}
+
+.footer a {
+	color: #999999;
+}
+
+/** bbcode **/
+.bbc_bold{
+    font-weight: bold;
+}
+
+.bbc_italic{
+    font-style: italic;
+}
+
+.bbc_strike{
+    text-decoration: line-through;
+}
+
+.bbc_underline{
+    text-decoration: underline;
+}
+
+.bbc_quote{
+    display: block;
+    padding-left: 3px;
+    border-left: 3px solid #E1E1E1;    
+    margin: 5px 5px 5px 5px;
+    text-indent: 5px;
+}
+
+.bbc_quote p:first-letter{
+    font-weight: bold;
+}
+
+.bbc_code{
+    display: block;
+    padding-left: 3px;
+    font-family: Monospace;    
+    white-space: pre;
+    border-left: 3px solid #E1E1E1;
+}
+
+  /*************/
+ /* A D M I N */
+/*************/
+/* LOGIN */
+form.admin_login{
+}
+
+form.admin_login label{
+    display: block;
+    font-weight: bold;
+    
+}
+
+form.admin_login input[type="text"], form.admin_login input[type="password"]{
+    width: 80%;
+}
+
+/* SETTINGS */
+form.admin_settings label{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+form.admin_settings input[type=submit],form.admin_settings input[type=reset]{
+    float: right;
+}
+
+/* EVENT LIST */
+.admin_event_list, .admin_comment_list{
+    border: 1px solid #d3d7cf;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+.admin_event_list h3, .admin_comment_list h3{
+    color: #346d5f;
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    padding: 2px 0 0 0;
+}
+
+/* EVENT */
+
+a.addevent{
+    display: block;
+    text-align: right;
+    margin: 0px 0px 4px 0px;
+}
+
+.admin_event{
+    border-bottom: 1px solid #d3d7cf;
+    margin: 0px;
+    padding-left: 3px;
+}
+
+.admin_event:hover{
+    border-left: 3px solid #9dcfc5;
+    padding-left: 0px;
+}
+
+.odd{
+    background-color: #F8F8F8;
+}
+
+.even{    
+}
+
+.admin_event{
+    height: 18px;
+}
+
+.admin_event a{
+    float: right;
+}
+
+
+/* COMMENTS */
+form.admin_comment{
+    margin: 0;
+    border-bottom: 1px solid #d3d7cf;
+}
+
+form.admin_comment input{
+    float: right;
+    border: none;
+}
+
+/* Buttons */
+.cimg{
+    background-repeat: no-repeatM
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    width: 16px; 
+    margin: 1px 0px 0px 1px;   
+}
+
+.edit{background-image: url(./images/edit.png);}
+.edit:hover{background-image: url(./images/edit_ho.png);}
+.delete{background-image: url(./images/x.png);}
+.delete:hover{background-image: url(./images/x_ho.png);}
+
+/** evenc generated **/
+.events_1, .events_2, .events_3, .events_4, .events_5{
+    text-decoration: underline;
+}
+
+.events_1{background-color: #e1e1e1;opacity: 0.4;}
+.events_2{background-color: #cdcdcd;opacity: 0.6;}
+.events_3{background-color: #b9b9b9;opacity: 0.8;}
+.events_4{background-color: #a5a5a5;opacity: 0.9;}
+.events_5{background-color: #919191;}
+
+.today{
+    color: #9f9f9f;
+    font-weight: bold;
+}
